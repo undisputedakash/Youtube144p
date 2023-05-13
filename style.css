@@ -1,0 +1,52 @@
+body{
+    background-color: black;
+    color: white;
+}
+.container-fluid{
+    display: flex;
+    justify-content: space-between;
+}
+.yt-image{
+    width: 20%;
+    margin-left: 120px;
+    margin-top: 20px;
+}
+.yt-text{
+    height:31%;
+    margin-left: 10px;
+    font-size: 20px;
+}
+#search-query{
+    background: black;
+    color: white;
+    width: 400px;
+    margin-top: 40px;
+    line-height: 24px; 
+    margin-left: 40px;
+}
+#search-btn{
+    background: black;
+    color: white;
+    margin-top: 40px;
+    line-height: 24px; 
+    margin-left: 10px;
+}
+.right{
+    margin-right: 400px;
+}
+hr{
+    border: solid white 1px;
+}
+#videos{
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+#videos img{
+    width: 100%;
+}
+.container-item{
+    width: 23%;
+    height: auto;
+    margin: 10px;
+}
